@@ -1,0 +1,49 @@
+.app {
+  text-align: center;
+  justify-content: center;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  justify-content: center;
+}
+.todo-item button{
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+  margin: 0px 50px;
+}
+.btn{
+  margin: 0px 30px;
+  border:none;
+  background-color: #fff;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+}
+.btn:focus{
+  background-color: blue;
+  color: #fff;
+}
+.btnDel{
+  background-color: red;
+  color: #fff;
+  padding: 10px;
+}
+
+.add-todo input {
+  padding: 10px;
+}
+.add-todo button{
+  padding: 10px 20px;
+  background-color: blue;
+  color: #fff;
+  margin-left: 20px ;
+  border-radius: 10px;
+  border: none;
+}
+.completed {
+  text-decoration: line-through;
+}
